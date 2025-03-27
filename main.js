@@ -1,3 +1,4 @@
+import { UsersApp } from './src/users/users-app';
 import './style.css'
 import javascriptLogo from '/javascript.svg'
 import viteLogo from '/vite.svg'
@@ -17,3 +18,5 @@ document.querySelector('#app').innerHTML = `
 `;
 
 const element = document.querySelector('.card');
+
+UsersApp(element);
