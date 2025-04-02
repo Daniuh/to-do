@@ -35,3 +35,18 @@ input {
 span, label {
     color: black;
 }
+
+.span-modal {
+    display: flex;
+    gap: 130px;
+    padding-bottom: 5px;
+}
+
+.span-x:hover {
+	color: #ff0008;
+    cursor: default;
+}
+
+.span-x:after {
+	cursor: pointer;
+}
