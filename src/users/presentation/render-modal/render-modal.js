@@ -10,7 +10,7 @@ export const showModal = () => {
 
 export const hideModal = () => {
     modal?.classList.add('hide-modal');
-    // TODO: reset del form
+    form?.reset();
 }
 
 /**
@@ -27,13 +27,34 @@ export const renderModal = (element) => {
     form = modal.querySelector('form');
 
     modal.addEventListener('click', (event) => {
-        if(event.target.className === 'modal-container' || 'span-x'){
+        if(event.target.className === 'modal-container' || event.target.className === 'span-x'){
             hideModal();
         }
     });
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();
+
+        const formData = new FormData(form);
+        const userLike = {};
+
+        for(const [key, value] of formData){
+            if(key === 'balance'){
+                userLike[key] = +value;
+                continue;
+            }
+
+            if(key === 'isActive'){
+                userLike[key] = (value === 'on') ? true : false;
+                continue;
+            }
+
+            userLike[key] = value;
+        }
+
+        //console.log(userLike);
+        // TODO: Guardar usuario
+        hideModal();
     });
 
     element.append(modal);
