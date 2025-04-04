@@ -16,8 +16,9 @@ export const hideModal = () => {
 /**
  * 
  * @param {HTMLDivElement} element
+ * @param {(userLike) => Promise<void>} saveUserCallback
  */
-export const renderModal = (element) => {
+export const renderModal = (element, saveUserCallback) => {
     if(modal) return;
 
     modal = document.createElement('div');
@@ -32,7 +33,7 @@ export const renderModal = (element) => {
         }
     });
 
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', async (event) => {
         event.preventDefault();
 
         const formData = new FormData(form);
@@ -52,8 +53,8 @@ export const renderModal = (element) => {
             userLike[key] = value;
         }
 
+        await saveUserCallback(userLike);
         //console.log(userLike);
-        // TODO: Guardar usuario
         hideModal();
     });
 
