@@ -449,6 +449,25 @@
       "first_name": "Mcbride",
       "last_name": "Woodward",
       "gender": "male"
+    },
+    {
+      "isActive": true,
+      "balance": 4000,
+      "first_name": "Daniel",
+      "last_name": "Naranjo",
+      "id": 51
+    },
+    {
+      "balance": 4000,
+      "first_name": "Daniel",
+      "last_name": "Naranjo",
+      "id": 52
+    },
+    {
+      "balance": 4000,
+      "first_name": "Daniel",
+      "last_name": "Naranjo",
+      "id": 53
     }
   ]
 }
