@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "isActive": false,
+      "isActive": true,
       "balance": 1397.32,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Ryan",
@@ -461,13 +461,36 @@
       "balance": 4000,
       "first_name": "Daniel",
       "last_name": "Naranjo",
-      "id": 52
+      "id": 52,
+      "isActive": true
     },
     {
       "balance": 4000,
       "first_name": "Daniel",
       "last_name": "Naranjo",
-      "id": 53
+      "id": 53,
+      "isActive": false
+    },
+    {
+      "isActive": true,
+      "balance": 4000,
+      "first_name": "Daniel",
+      "last_name": "Naranjo",
+      "id": 54
+    },
+    {
+      "balance": 12400000,
+      "first_name": "Geraldine",
+      "last_name": "Echeverri",
+      "id": 55,
+      "isActive": false
+    },
+    {
+      "isActive": false,
+      "balance": 1112121212,
+      "first_name": "Daniel",
+      "last_name": "Naranjo",
+      "id": 56
     }
   ]
 }
