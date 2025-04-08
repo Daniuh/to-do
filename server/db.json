@@ -449,48 +449,6 @@
       "first_name": "Mcbride",
       "last_name": "Woodward",
       "gender": "male"
-    },
-    {
-      "isActive": true,
-      "balance": 4000,
-      "first_name": "Daniel",
-      "last_name": "Naranjo",
-      "id": 51
-    },
-    {
-      "balance": 4000,
-      "first_name": "Daniel",
-      "last_name": "Naranjo",
-      "id": 52,
-      "isActive": true
-    },
-    {
-      "balance": 4000,
-      "first_name": "Daniel",
-      "last_name": "Naranjo",
-      "id": 53,
-      "isActive": false
-    },
-    {
-      "isActive": true,
-      "balance": 4000,
-      "first_name": "Daniel",
-      "last_name": "Naranjo",
-      "id": 54
-    },
-    {
-      "balance": 12400000,
-      "first_name": "Geraldine",
-      "last_name": "Echeverri",
-      "id": 55,
-      "isActive": false
-    },
-    {
-      "isActive": false,
-      "balance": 1112121212,
-      "first_name": "Daniel",
-      "last_name": "Naranjo",
-      "id": 56
     }
   ]
 }
