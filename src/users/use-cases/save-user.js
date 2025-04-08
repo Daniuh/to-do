@@ -3,7 +3,6 @@ import { userLocalhost } from '../mappers/user-localhost.mapper';
 import { localHostUserToModel } from '../mappers/localhost-user.mapper';
 
 /**
- * 
  * @param {Like<User>} userLike 
  */
 export const saveUser = async (userLike) => {
@@ -28,7 +27,6 @@ export const saveUser = async (userLike) => {
  * @param {Like<User>} user
  */
 const createUser =  async (user) => {
-
     const url = `${import.meta.env.VITE_BASE_URL}/users`;
     const res = await fetch(url, {
         method: 'POST',

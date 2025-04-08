@@ -1,7 +1,6 @@
 
 export class User {
     /**
-     * 
      * @param {Like<Object>} userDataLike 
      */
     constructor({id, isActive, balance, avatar, firstName, lastName, gender}) {

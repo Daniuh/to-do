@@ -38,7 +38,7 @@ span, label {
 
 .span-modal {
     display: flex;
-    gap: 130px;
+    gap: 110px;
     padding-bottom: 5px;
 }
 
@@ -49,4 +49,10 @@ span, label {
 
 .span-x:after {
 	cursor: pointer;
+}
+
+.span-button{
+    margin: 0px;
+    margin-top: 5px;
+    background-color: rgb(50, 46, 46)
 }

@@ -6,11 +6,9 @@ import { renderModal } from './presentation/render-modal/render-modal';
 import { saveUser } from './use-cases/save-user';
 
 /**
- * 
  * @param {HTMLDivElement} element 
  */
 export const UsersApp = async (element) => {
-
     element.innerHTML = 'Cargando...';
     await usersStore.loadNextPage();
     element.innerHTML = '';

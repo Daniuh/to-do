@@ -1,7 +1,6 @@
 import { User } from '../models/user';
 
 /**
- * 
  * @param {Like<User>} localhostUser 
  * @returns {User}
  */

@@ -3,11 +3,9 @@ import { renderTable } from '../render-table/render-table';
 import './render-buttons.css';
 
 /**
- * 
  * @param {HTMLDivElement} element 
  */
 export const renderButtons = (element) => {
-
     const nextButton = document.createElement('button');
     nextButton.innerText = ' Next >';
 
