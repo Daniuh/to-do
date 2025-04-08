@@ -3,3 +3,12 @@ table{
     border-radius: 5px;
     padding: 5px;
 }
+
+th{
+    padding-left: 10px;
+    text-align: start;
+}
+
+td{
+    text-align: center;
+}

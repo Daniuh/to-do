@@ -26,7 +26,6 @@ const loadPreviusPage = async () => {
  * @param {User} updateUser 
  */
 const onUserChanged = (updateUser) => {
-
     let wasFound = false;
 
     state.users = state.users.map(user => {
@@ -58,13 +57,11 @@ export default {
     reloadPage,
 
     /**
-     * 
      * @returns {User[]}
      */
     getUser: () => [...state.users],
 
     /**
-     * 
      * @returns {number}
      */
     getCurrentPage: () => state.currentPage,

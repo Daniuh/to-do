@@ -10,12 +10,12 @@ const createTable = () => {
     const tableHeaders = document.createElement('thead');
     tableHeaders.innerHTML = `
         <tr>
-            <th>#ID</th>
-            <th>Balance</th>
-            <th>FirstName</th>
-            <th>LastName</th>
-            <th>Active</th>
-            <th>Actions</th>
+            <th>Nª</th>
+            <th>Sueldo</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>¿Activo?</th>
+            <th>Acciones</th>
         </tr>
     `;
 

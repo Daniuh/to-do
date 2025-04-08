@@ -7,7 +7,6 @@ let modal, form;
 let loadedUser = {};
 
 /**
- * 
  * @param {string|number} id
  */
 export const showModal = async (id) => {
@@ -25,7 +24,6 @@ export const hideModal = () => {
 }
 
 /**
- * 
  * @param {User} user 
  */
 const setFormValues = (user) => {
@@ -37,7 +35,6 @@ const setFormValues = (user) => {
 }
 
 /**
- * 
  * @param {HTMLDivElement} element
  * @param {(userLike) => Promise<void>} saveUserCallback
  */
