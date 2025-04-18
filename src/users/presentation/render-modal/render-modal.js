@@ -48,7 +48,7 @@ export const renderModal = (element, saveUserCallback) => {
     form = modal.querySelector('form');
 
     modal.addEventListener('click', (event) => {
-        if(event.target.className === 'modal-container' || event.target.className === 'span-x'){
+        if(event.target.className === 'modal-container' || event.target.className === 'span-x' || event.target.className === 'span-img'){
             hideModal();
         }
     });

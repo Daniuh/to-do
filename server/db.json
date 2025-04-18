@@ -6,6 +6,13 @@
       "first_name": "Daniel",
       "last_name": "Naranjo",
       "id": 1
+    },
+    {
+      "isActive": true,
+      "balance": 4000,
+      "first_name": "Javier",
+      "last_name": "Naranjo",
+      "id": 2
     }
   ]
 }
