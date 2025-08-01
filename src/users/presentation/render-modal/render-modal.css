@@ -55,6 +55,12 @@ span, label {
 
 .span-button{
     margin: 0px;
-    margin-top: 5px;
+    margin-top: 15px;
     background-color: rgb(50, 46, 46)
+}
+
+.span-button:hover {
+    background-color: rgb(196, 194, 194);
+    transition: 0.5s;
+    color: black;
 }
