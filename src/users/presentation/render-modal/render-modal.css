@@ -53,6 +53,10 @@ span, label {
 	cursor: pointer;
 }
 
+.span-x:hover {
+    cursor: pointer;
+}
+
 .span-button{
     margin: 0px;
     margin-top: 15px;
@@ -60,7 +64,14 @@ span, label {
 }
 
 .span-button:hover {
-    background-color: rgb(196, 194, 194);
+    background-color: rgb(255, 255, 255);
     transition: 0.5s;
     color: black;
+    border-color: black;
+}
+
+.inputForm {
+    border: none;
+    background-color: rgb(239, 238, 236);
+    border-bottom: 2px solid black;
 }
